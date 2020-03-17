@@ -2,7 +2,7 @@
 
 ## App deployment instructions
 
-Prerequesits: 
+prerequisites: 
 - Tapis
 [Tapis documentation](https://github.com/TACC-Cloud/tapis-cli-ng)
 
