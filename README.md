@@ -1,9 +1,11 @@
 # 3dem
 
+This page describes the process of deploying an app (application) on 3dem portal (3dem.org). 
+
 ## App deployment instructions
 
-prerequisites: 
-- Tapis
+Prerequisites: 
+- Tapis CLI 
 [Tapis documentation](https://github.com/TACC-Cloud/tapis-cli-ng)
 
 - 3dem tenant setup using Tapis auth init
@@ -11,11 +13,11 @@ prerequisites:
 ```$ tapis auth init```
 
 ### 1. AlignEM-Swift-Dev 
-
 Directory Structure
 
 - test_script.sh
 
+This file is used as a test run on command line to see if the following executables do indeed work when run. 
 ```
 module load TACC
 wget https://gitlab.3dem.org/tmbartol/swift-ir/-/archive/development/swift-ir-development.tar.gz --no-check-certificate
